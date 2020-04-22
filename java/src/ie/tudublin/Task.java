@@ -19,7 +19,7 @@ class Task {
 				data = readData.next(); //store csv text inside data 
 				System.out.println(data);
 				array = data.split(","); //split the csv sttring in to seperate array elemtns after each ","
-				splits.add(array);
+				splits.add(data.split(","));
 			}
 			readData.close(); //close scanner 
 		 }  
