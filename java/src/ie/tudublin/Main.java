@@ -6,11 +6,8 @@ public class Main
 {
 	 public static void main(String[] args) 
 	 {
-	     //Main main = new Main();
-	     //main.gant();  
-	     
-	     Task test = new Task();
-	     test.getTasks(0);
+	     Main main = new Main();
+	     main.gant();
 	     
 	     
 	     Gantt load = new Gantt();
